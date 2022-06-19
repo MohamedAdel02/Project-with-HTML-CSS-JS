@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Work+Sans:wght@100;300;500;600&display=swap">
+    
+</head>
+<div>
+  <!--  Start Setting box  -->
+  <div class="setting-box">
+    <div class="toggle-setting">
+      <i class="fa fa-gear"></i>
+    </div>
+    <div class="setting-contaier">
+      <div class="option-box">
+        <h4>Color</h4>
+        <ul class="color-list">
+          <li class="active " data-color="#ff6232"></li>
+          <li data-color="#2ce014"></li>
+          <li data-color="#22e0ee"></li>
+          <li data-color="#ee22dd"></li>
+          <li data-color="#ee2222"></li>
+        </ul>
+      </div>
+      <div class="option-box">
+        <h4>Random Background</h4>
+        <div class="random-backgrounds">
+            <span class="yes active" data-background ="yes"> Yes</span>
+            <span class="no" data-background ="no">No</span>
+        </div>
+      </div>
+      
+      <div class="option-box">
+        <h4>Show Bullets</h4>
+        <div class="Bullets-option">
+          <span class="yes active" data-display="Show"> Yes</span>
+          <span class="no" data-display="Hide">No</span>
+        </div>
+      </div>
+     
+        <button class="reset-option">Reset Option</button>
+
+      </div>  
+  </div>
+  <!--  End Setting box  -->
+   
+  <!-- Start Nav Bullets -->
+  <div class="nav-Bullets">
+    <div class="Bullet" data-section =".about-us">
+      <div class="tooltip">About Us</div>
+    </div>   
+    <div class="Bullet" data-section =".skill">
+      <div class="tooltip">Our Skills</div>
+    </div>
+    <div class="Bullet" data-section =".Gallary">
+      <div class="tooltip">Our Gallary</div>
+    </div>
+    <div class="Bullet" data-section =".timeline">
+      <div class="tooltip">Timeline</div>
+    </div>
+    <div class="Bullet" data-section=".features">
+      <div class="tooltip">Features</div>
+    </div>
+    <div class="Bullet" data-section=".testimonials">
+      <div class="tooltip">Tistimonials</div>
+    </div>
+    
+  </div>
+  <!-- End Nav Bullets -->
+
+  <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="Over-lay"></div> 
+        <div class="container">
+          <div class="header-eara">
+            <div class="logo">Special Design</div>
+            <div class="links-container">
+              <ul class="links">
+                <li><a href="#" class="active" data-section =".about-us"> About </a></li>
+                <li><a href="#" data-section =".skill">Service</a></li>
+                <li><a href="#" data-section =".Gallary">Product</a></li>
+                <li><a href="#" data-section =".timeline">Contact</a></li>
+              </ul>
+              <button class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>We Are<span> Creative</span> Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugiat facilis, cum dicta architecto impedit ex ad nam velit optio! Voluptatibus accusamus </p>
+        </div>
+    </div>
+     <!-- End Landing Page -->
+    
+     <!-- Start About Us -->
+     <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam aspernatur vero blanditiis asperiores sed temporibus natus, modi dolore cum, nulla eveniet amet molestias quam aliquam obcaecati quo perspiciatis expedita quibusdam?</p>
+        </div>
+        <div class="image-box">
+          <img src="img/About-us.jpg" alt="">
+        </div>
+      </div>
+     </div>
+     <!-- Start About Us -->  
+    
+     <!-- Start our skliks -->
+    <div class="skill">
+      <div class="container">
+
+      <h2> Our Skills </h2>
+      
+      <div class="skill-box">
+        <div class="skill-name">Html</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+
+      <div class="skill-box">
+        <div class="skill-name">Css</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+      
+      <div class="skill-box">
+        <div class="skill-name">Javascript</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+    
+      </div>
+    </div>
+     <!--End our skliks -->
+   
+     <!-- start Gellary -->
+      <div class="Gallary">
+        <div class="container">
+          <h2>OurGallary</h2>
+          <div class="image-box">
+            <img src="img/01.jpg" alt="image-one">
+            <img src="img/02.jpg" alt="image-two">
+            <img src="img/03.jpg" alt="image-three">
+            <img src="img/04.jpg" alt="image-four">
+            <img src="img/05.jpg" alt="image-five">
+            <img src="img/06.jpg" alt="">
+            <img src="img/07.jpg" alt="">
+            <img src="img/08.jpg" alt="">
+            <img src="img/09.jpg" alt="">
+            <img src="img/10.jpg" alt="">
+          </div>
+        </div>
+      </div>
+     <!-- End Gellary -->
+
+     <!-- Start Time Line -->
+     <div class="timeline">
+     <div class="container">
+     <div class="timelin-content">
+      
+      <div class="year">2018</div>
+
+       <div class="left">
+         <div class="content">
+           <h3>Testing Heading</h3>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo recusandae, ab porro et ipsum adipisci magni molestias at dolores quam possimus animi voluptas delectus. Voluptates incidunt sapiente ad pariatur?</p>
+         </div>
+       </div>
+       
+       <div class="clearfix"></div>
+      
+       <div class="right">
+        <div class="content">
+          <h3>Testing Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo recusandae, ab porro et ipsum
+            adipisci magni molestias at dolores quam possimus animi voluptas delectus. Voluptates incidunt sapiente ad
+            pariatur?</p>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      
+      <div class="year">2016</div>
+
+      <div class="left">
+        <div class="content">
+          <h3>Testing Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo recusandae, ab porro et ipsum
+            adipisci magni molestias at dolores quam possimus animi voluptas delectus. Voluptates incidunt sapiente ad
+            pariatur?</p>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="right">
+        <div class="content">
+          <h3>Testing Heading</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita explicabo recusandae, ab porro et ipsum
+            adipisci magni molestias at dolores quam possimus animi voluptas delectus. Voluptates incidunt sapiente ad
+            pariatur?</p>
+        </div>
+      </div>
+         <div class="clear-fix"></div>
+     </div>
+    </div>
+    </div>
+     <!-- End Time Line -->
+
+     <!-- Start Features -->
+       <div class="features">
+        <h2>Our Features</h2>*
+        <div class="container">
+            <div class="feat-box">
+              <img src="img/11.jpg" alt="">
+              <h4>Devolpment</h4>
+              <p>We Are Professional Devolopment, We Are Doing Any Thing you are Want</p>
+            </div>
+            
+            <div class="feat-box">
+              <img src="img/12.png" alt="">
+              <h4>Devolpment</h4>
+              <p>We Are Professional Devolopment, We Are Doing Any Thing you are Want</p>
+            </div>
+            
+            <div class="feat-box">
+              <img src="img/15.png" alt="">
+              <h4>Devolpment</h4>
+              <p>We Are Professional Devolopment, We Are Doing Any Thing you are Want</p>
+            </div>
+            
+            <div class="feat-box">
+              <img src="img/16.png" alt="">
+              <h4>Devolpment</h4>
+              <p>We Are Professional Devolopment, We Are Doing Any Thing you are Want</p>
+            </div>
+            
+            <div class="feat-box">
+              <img src="img/17.png" alt="">
+              <h4>Devolpment</h4>
+              <p>We Are Professional Devolopment, We Are Doing Any Thing you are Want</p>
+            </div>
+            
+            <div class="feat-box">
+              <img src="img/19.png" alt="">
+              <h4>Devolpment</h4>
+              <p>We Are Professional Devolopment, We Are Doing Any Thing you are Want</p>
+            </div>
+             <div class="clearfix"></div>
+         </div>
+       </div>
+     <!-- End Features -->
+
+     <!-- Start Testimonials -->
+      <div class="testimonials">
+       <div class="container">
+          <h2>Testimonials</h2>
+          
+          <div class="ts-box">
+           <p>Iam Very  Happy To Work With you Thanks And I Hope To Accpet Me </p>
+           <div class="person-inf">
+              <img src="https://via.placeholder.com/80//DDD" alt="">
+              <h4> Mohamed Adel </h4>
+              <p> CEO At Company </p>
+           </div>
+          </div>
+          
+          <div class="ts-box">
+            <p>Iam Very Happy To Work With you Thanks And I Hope To Accpet Me </p>
+            <div class="person-inf">
+              <img src="https://via.placeholder.com/80/EEE" alt="">
+              <h4> Mohamed Adel </h4>
+              <p> CEO At Company </p>
+            </div>
+          </div>
+          
+         
+          <div class="ts-box">
+            <p>Iam Very Happy To Work With you Thanks And I Hope To Accpet Me </p>
+            <div class="person-inf">
+              <img src="https://via.placeholder.com/80/AAA" alt="">
+              <h4> Mohamed Adel </h4>
+              <p> CEO At Company </p>
+            </div>
+          </div>
+        
+      </div>
+      <div class="clearfix"></div>
+      </div>
+     <!-- Start Testimonials -->
+
+     <!-- Start Contact Us -->
+     <div class="contact">
+      <div class="overlay"></div>
+        <div class="container">
+          <h2>Contact Us</h2>
+          <form action="">
+            
+            <div class="left">
+              <input type="text" placeholder="Your Name" name="UserName">
+              <input type="text" placeholder="Your Name" name="UserName">
+              <input type="email" placeholder="Your Email" name="email">
+              <input type="text" placeholder="Subject" name="subject">
+            </div>
+            
+            <div class="right">
+              <textarea name="message" placeholder="Your Message"></textarea>
+              <input type="submit" value="Send">
+            </div>
+          
+          </form>
+       
+        
+      </div>
+     </div>
+    <!-- End Contact Us -->
+    <!-- start footer -->
+     <div class="footer">
+        Created With Help "Osama Elzero" By "Mohamed Adel" &reg;
+     </div>
+    <!-- End Footer -->
+     <script src="js/main.js"></script>
+</body>
+
+</html>
